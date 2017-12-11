@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+#main_header {
+    top: 0px;
+
+    height: 100vh;
+}
+#main_header > div.main_header_content {
+    height: 50vh;
+    text-align: center;
+    background-image: url("../img/man-1.jpg");
+    background-position: center top;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#main_header > div.main_header_content > div#back {
+    height: 100%;
+}
+.brag {
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+}
+h1 {
+    font-size: 1em;
+}
+h2 {
+    font-size: 1.5em;
+}

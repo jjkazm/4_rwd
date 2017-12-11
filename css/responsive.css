@@ -1,0 +1,38 @@
+@media all and (min-width: 993px) {
+    #main_header > div.main_header_content {
+        height: 70vh;
+        text-align: left;
+        background-image: url("../img/man-2.jpg");
+        background-position: center top;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    #main_header > div.main_header_content > div#back {
+        display: none;
+    }
+    h1 {
+        padding-top: 10%;
+    }
+    .brag {
+        padding-left: 55%;
+        color: white;
+    }
+    @media all and (min-width: 1170px) {
+        #main_header > div.main_header_content {
+            height: 100vh;
+            background-image: url("../img/man-1.jpg");
+            background-position: center top;
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+        #main_header > div.main_header_content > div#back {
+            display: none;
+        }
+        h1 {
+            padding-top: 30%;
+        }
+
+        .brag {
+            padding-left: 10%;
+
+        }
