@@ -20,8 +20,7 @@ body {
 }
 .brag {
     text-transform: uppercase;
-    font-family: 'Lato', sans-serif;
-    font-weight: bold;
+    font-family: "Verdana", sans-serif;
 }
 h1 {
     font-size: 1em;
